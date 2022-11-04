@@ -20,7 +20,7 @@ function insertar2() {
   var footer = document.getElementById("footer");
   var parr = document.createElement("div");
   var content= 
-  '<h4 class="text-center text-light f-5">REDES SOCIALES</h4>  <div class=" d-flex justify-content-center"> <a class="mx-3 icon" href="https://www.facebook.com/"><img src="./iconos/facebook.svg" alt=""></a><a class="mx-3 icon4" href="https://twitter.com/home?lang=es"><img src="/iconos/twitter.svg" alt=""></a><a class="mx-3 icon2" href="https://www.instagram.com/?hl=es-la"><img src="/iconos/instagram.svg" alt=""></a>  <a class="mx-3 icon3" href="https://github.com/YFelipeV/trabajo-pablo"><img src="./iconos/github.svg" alt=""></a></div><address class="text-light text-center"><em><b>Desarrollado por</b>Yoan felipe segura villamarin</em></address>';
+  '<h4 class="text-center text-light f-5">REDES SOCIALES</h4>  <div class=" d-flex justify-content-center"> <a class="mx-3 icon" href="https://www.facebook.com/"><img src="./iconos/facebook.svg" alt=""></a><a class="mx-3 icon4" href="https://twitter.com/home?lang=es"><img src="./iconos/twitter.svg" alt=""></a><a class="mx-3 icon2" href="https://www.instagram.com/?hl=es-la"><img src="./iconos/instagram.svg" alt=""></a>  <a class="mx-3 icon3" href="https://github.com/YFelipeV/trabajo-pablo"><img src="./iconos/github.svg" alt=""></a></div><address class="text-light text-center"><em><b>Desarrollado por</b>Yoan felipe segura villamarin</em></address>';
   footer.className="bg-dark"
   parr.innerHTML=content;
   footer.appendChild(parr);
